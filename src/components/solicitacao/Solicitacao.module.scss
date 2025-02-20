@@ -1,0 +1,121 @@
+.layoutSolicitacao{
+    display: flex;
+    
+}
+
+.containerPrincipalSolicitacao{
+    //background-color: red;
+    width: 95vw;
+}
+
+.headerSolicitacao{
+    width: 20vw;
+    display: flex;
+}
+
+.mainSolicitacao{
+    width: 100%;
+    //border: solid white;
+}
+
+.formSolicitacao{
+    display: flex;
+    flex-direction: row;
+    //justify-content: space-between;
+    width: 100%;
+    //background-color: pink;
+}
+
+//Estilização padrão para os inputs, select , label e textarea
+
+label{
+    font-weight: 700;
+    font-size: 10px;
+    color: #23282F;
+}
+
+input, select, textarea{
+    border-radius: 6px;
+    border: solid #CBD4E1 0.8px;
+    height: 3vh;
+    width: 35%;
+}
+
+
+//Estilizção do grupo1
+.grupo1{
+    width: 60%;
+    height: 30vh;
+    //border: solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    div{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+.inputNome{
+   //border: solid red;
+    width: 45%;
+}
+
+.inputEmpresa{
+  //border: solid blue;
+    width: 25%;
+}
+
+.inputPrestacao{
+    width: 25%;
+  //border: solid purple; 
+}
+
+.inputMotivo{
+    width: 98%;
+    height: 8vh;
+ 
+
+    textarea{
+        height: 10vh;
+    }
+}
+.inputData{
+    border: solid tomato;
+    width: 50%;
+    height: 35vh;
+}
+
+
+//Estilização da barra vertical
+
+.barraVertical{
+    background-color: #CBD4E1;
+    height: 25vh;
+    width:0.1vw;
+    //border: solid yellow;
+}
+
+//Estilizção do grupo2
+
+.grupo2{
+    //border: solid blue;
+    width: 50%;
+    display: flex;
+    height: 30vh;
+    div{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 8vh;;
+       
+    }
+    
+}
+
+.despesas{
+    width: 35%;
+    height: 25vh;
+    border:solid rgb(0, 255, 76);
+}
